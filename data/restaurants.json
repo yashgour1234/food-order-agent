@@ -1,0 +1,200 @@
+[
+  {
+    "id": "r1",
+    "name": "Spice Villa",
+    "area": "Connaught Place",
+    "cuisine": "North Indian",
+    "rating": 4.3,
+    "price_for_two": 450,
+    "delivery_time_minutes": 35,
+    "offers": ["20% off above ₹300"],
+    "is_open": true
+  },
+  {
+    "id": "r2",
+    "name": "Dragon Palace",
+    "area": "Connaught Place",
+    "cuisine": "Chinese",
+    "rating": 4.1,
+    "price_for_two": 380,
+    "delivery_time_minutes": 40,
+    "offers": [],
+    "is_open": true
+  },
+  {
+    "id": "r3",
+    "name": "The Pizza Hub",
+    "area": "Connaught Place",
+    "cuisine": "Italian",
+    "rating": 4.3,
+    "price_for_two": 520,
+    "delivery_time_minutes": 30,
+    "offers": ["Free garlic bread on orders above ₹400"],
+    "is_open": true
+  },
+  {
+    "id": "r4",
+    "name": "Biryani Bros",
+    "area": "Connaught Place",
+    "cuisine": "Mughlai",
+    "rating": 4.6,
+    "price_for_two": 600,
+    "delivery_time_minutes": 50,
+    "offers": ["10% off for new users"],
+    "is_open": true
+  },
+  {
+    "id": "r5",
+    "name": "Wok This Way",
+    "area": "Connaught Place",
+    "cuisine": "Chinese",
+    "rating": 3.9,
+    "price_for_two": 300,
+    "delivery_time_minutes": 25,
+    "offers": [],
+    "is_open": false
+  },
+  {
+    "id": "r6",
+    "name": "Curry Leaf",
+    "area": "Lajpat Nagar",
+    "cuisine": "South Indian",
+    "rating": 4.4,
+    "price_for_two": 350,
+    "delivery_time_minutes": 30,
+    "offers": ["15% off above ₹250"],
+    "is_open": true
+  },
+  {
+    "id": "r7",
+    "name": "Punjabi Dhaba",
+    "area": "Lajpat Nagar",
+    "cuisine": "North Indian",
+    "rating": 4.2,
+    "price_for_two": 400,
+    "delivery_time_minutes": 45,
+    "offers": [],
+    "is_open": true
+  },
+  {
+    "id": "r8",
+    "name": "Sushi Stop",
+    "area": "Lajpat Nagar",
+    "cuisine": "Japanese",
+    "rating": 4.5,
+    "price_for_two": 900,
+    "delivery_time_minutes": 40,
+    "offers": ["Free miso soup on orders above ₹700"],
+    "is_open": true
+  },
+  {
+    "id": "r9",
+    "name": "Burger Barn",
+    "area": "Lajpat Nagar",
+    "cuisine": "American",
+    "rating": 4.0,
+    "price_for_two": 420,
+    "delivery_time_minutes": 20,
+    "offers": ["Buy 1 Get 1 on Tuesdays"],
+    "is_open": false
+  },
+  {
+    "id": "r10",
+    "name": "Taco Fiesta",
+    "area": "Lajpat Nagar",
+    "cuisine": "Mexican",
+    "rating": 4.2,
+    "price_for_two": 480,
+    "delivery_time_minutes": 35,
+    "offers": [],
+    "is_open": true
+  },
+  {
+    "id": "r11",
+    "name": "Dosa Express",
+    "area": "Karol Bagh",
+    "cuisine": "South Indian",
+    "rating": 4.5,
+    "price_for_two": 250,
+    "delivery_time_minutes": 20,
+    "offers": ["Combo deal for ₹199"],
+    "is_open": true
+  },
+  {
+    "id": "r12",
+    "name": "Noodle Nest",
+    "area": "Karol Bagh",
+    "cuisine": "Chinese",
+    "rating": 3.8,
+    "price_for_two": 320,
+    "delivery_time_minutes": 30,
+    "offers": [],
+    "is_open": true
+  },
+  {
+    "id": "r13",
+    "name": "The Kebab House",
+    "area": "Karol Bagh",
+    "cuisine": "Mughlai",
+    "rating": 4.5,
+    "price_for_two": 550,
+    "delivery_time_minutes": 40,
+    "offers": ["20% off on weekends"],
+    "is_open": true
+  },
+  {
+    "id": "r14",
+    "name": "Green Bowl",
+    "area": "Karol Bagh",
+    "cuisine": "Healthy",
+    "rating": 4.1,
+    "price_for_two": 480,
+    "delivery_time_minutes": 25,
+    "offers": [],
+    "is_open": true
+  },
+  {
+    "id": "r15",
+    "name": "Maharaja's Kitchen",
+    "area": "Connaught Place",
+    "cuisine": "North Indian",
+    "rating": 4.7,
+    "price_for_two": 800,
+    "delivery_time_minutes": 55,
+    "offers": ["25% off above ₹600"],
+    "is_open": true
+  },
+  {
+    "id": "r16",
+    "name": "Street Bites",
+    "area": "Lajpat Nagar",
+    "cuisine": "Street Food",
+    "rating": 4.4,
+    "price_for_two": 200,
+    "delivery_time_minutes": 15,
+    "offers": [],
+    "is_open": true
+  },
+  {
+    "id": "r17",
+    "name": "Bombay Brasserie",
+    "area": "Karol Bagh",
+    "cuisine": "North Indian",
+    "rating": 4.0,
+    "price_for_two": 600,
+    "delivery_time_minutes": 45,
+    "offers": ["Free dessert on orders above ₹500"],
+    "is_open": false
+  },
+  {
+    "id": "r18",
+    "name": "Zen Garden",
+    "area": "Connaught Place",
+    "cuisine": "Japanese",
+    "rating": 4.1,
+    "price_for_two": 750,
+    "delivery_time_minutes": 45,
+    "offers": [],
+    "is_open": true
+  }
+]
