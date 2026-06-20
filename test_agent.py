@@ -1,19 +1,19 @@
-from core.state import create_initial_state
+# test_agent.py
+
 from core.agent import run_agent
 
-# Create a fresh state
-state = create_initial_state()
+if __name__ == "__main__":
+    result = run_agent("Find me a good restaurant for delivery in Connaught Place")
 
-# Set the user's location in state
-state["user_location"] = "Connaught Place"
+    print("\n" + "="*60)
+    print("FINAL RESULTS SUMMARY")
+    print("="*60)
 
-# Run the agent
-updated_state = run_agent(
-    user_request="Find me a good restaurant for delivery in Connaught Place",
-    state=state
-)
+    print(f"\nRestaurants ranked: {len(result['ranked_restaurants'])}")
+    if result['ranked_restaurants']:
+        print("\nTop 3 picks:")
+        for i, r in enumerate(result['ranked_restaurants'][:3]):
+            print(f"  {i+1}. {r['name']} (score: {r.get('score', 'N/A'):.2f})")
 
-# Show what ended up in state after the agent ran
-print("\n--- Final State ---")
-print(f"Recommendation stored: {updated_state['recommendation'] is not None}")
-print(f"Order placed: {updated_state['order_placed']}")
+    print(f"\n--- RECOMMENDATION ---")
+    print(result['recommendation'])
