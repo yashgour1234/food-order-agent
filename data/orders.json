@@ -9,5 +9,16 @@
     "price_for_two": 800,
     "delivery_time_minutes": 55,
     "status": "confirmed"
+  },
+  {
+    "order_id": "ORD-DB3FAA07",
+    "timestamp": "2026-06-21 23:14:33",
+    "restaurant_id": "r15",
+    "restaurant_name": "Maharaja's Kitchen",
+    "area": "Connaught Place",
+    "cuisine": "North Indian",
+    "price_for_two": 800,
+    "delivery_time_minutes": 55,
+    "status": "confirmed"
   }
 ]
