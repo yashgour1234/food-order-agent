@@ -1,0 +1,13 @@
+[
+  {
+    "order_id": "ORD-28D2AD55",
+    "timestamp": "2026-06-21 13:49:00",
+    "restaurant_id": "r15",
+    "restaurant_name": "Maharaja's Kitchen",
+    "area": "Connaught Place",
+    "cuisine": "North Indian",
+    "price_for_two": 800,
+    "delivery_time_minutes": 55,
+    "status": "confirmed"
+  }
+]
