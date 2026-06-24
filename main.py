@@ -1,7 +1,7 @@
 # main.py
 
 from core.state import create_initial_state
-from core.agent import run_agent
+from core.agent_manual import run_agent
 
 
 def main():
